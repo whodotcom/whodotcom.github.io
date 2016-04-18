@@ -30,6 +30,16 @@ a {
   margin-left: auto;
 }
 
+.container-front-bottom {
+  font-family: 'Avenir';
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container-projects{
   font-family: 'Avenir';
   padding-right: 15px;

@@ -21,10 +21,13 @@ scroll.css .large-divider {
 .animated-section {
   display: block;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+
   background: none;
   transition: all 500ms ease;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 150px;
 }
 .background {
   position: fixed;
