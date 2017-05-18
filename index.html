@@ -1,119 +1,820 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bodo - Simple One Page Personal</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Bodo - Simple One Page Personal" name="description">
+    <meta content="BdgPixel" name="author">
+    <!--Fav-->
+    <link href="images/favicon.ico" rel="shortcut icon">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Kelly Renee Mahoney">
+    <!--styles-->
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <!--fonts google-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 
-  <title>Kelly Renee Mahoney</title>
-
-  <!-- Custom CSS -->
-  <link href="css/portfolio-item.css" rel="stylesheet">
-
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/scroll.css" rel="stylesheet">
-</head>
-
-<body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <a class="navbar-brand" style="padding: 12px;" href="index.html">
-          <img alt="Brand" src="img/mhoney.png" style="width:27px">
-        </a>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Kelly Renee Mahoney</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="design.html">Design</a></li>
-          <li><a href="photography.html">Photography</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get to Know Me! <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="https://www.facebook.com/kelly.mahoney.790">Facebook</a></li>
-              <li><a href="https://twitter.com/whodotcom28">Twitter</a></li>
-              <li><a href="https://github.com/whodotcom/guessthatcat.git">Github</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="img/Kelly Mahoney - Resume copy.pdf">Resume</a></li>
-            </ul>
-          </li>
-        </ul>
+    <!--[if lt IE 9]>
+       <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--PRELOADER-->
+    <div id="preloader">
+      <div id="status">
       </div>
     </div>
-  </nav>
+    <!--/.PRELOADER END-->
 
-  <div class="container-front">
-    <div class='animated-section' data-background=#BFD1F7>
-      <img class="img-responsive" src="img/kellyg.png">
-    </div>
-
-    <div class='animated-section' data-background=#D0FEF9>
-      <div class="container">
-
-        <div class="row">
-          <div class="col-sm-10 col-md-8">
-            <div class="story-name">
-              Kelly Renee Mahoney
-            </div>
-            <div class="box">
-            </div>
-            <div class="story-sub">
-              Senior at the University of Florida - Religious Studies
-            </div>
-          </div>
+    <!--HEADER -->
+    <div class="header">
+      <div class="for-sticky">
+        <!--LOGO-->
+        <div class="col-md-2 col-xs-6 logo">
+          <a href="index.html"><H4>Kelly Renee Mahoney</H4></a>
         </div>
+        <!--/.LOGO END-->
       </div>
-      <div class="container-front-bottom">
-        <div class='row'></div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <a href="projects.html">
-              <img src="img/projects/hungry.png" width="100%" height="50%"></a>
-            <div class="caption">
-              <h3><a href="projects.html">Front-End Developer</a></h3>
-            </div>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="menu-list">
+            <a data-scroll="" href="#home" class="active">
+              <span>Home</span>
+            </a>
+            <a data-scroll="" href="#about">
+              <span>About</span>
+            </a>
+            <a data-scroll="" href="#work">
+              <span>Projects</span>
+            </a>
+             <a data-scroll="" href="#services">
+              <span>Services</span>
+            </a>
+            <a data-scroll="" href="#employement">
+              <span>Employement</span>
+            </a>
+            <a data-scroll="" href="#skill">
+              <span>Skills</span>
+            </a>
+            <a data-scroll="" href="#education">
+              <span>Education</span>
+            </a>
+            <a data-scroll="" href="#testimonial">
+              <span>Awards</span>
+            </a>
+            <a data-scroll="" href="#blog">
+              <span>Blog</span>
+            </a>
+            <a data-scroll="" href="#contact">
+              <span>Contact</span>
+            </a>
           </div>
-          <div class="col-sm-6 col-md-4">
-            <a href="design.html">
-              <img src="img/hackdfw.gif" width="100%" height="25%" alt=""></a>
-            <div class="caption">
-              <h3><a href="design.html">Designer</a></h3>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a href="photography.html">
-              <img src="img/photography/cake.png" width="100%" height="50%"></a>
-            <div class="caption">
-              <h3><a href="photography.html">Photographer</a></h3>
-            </div>
-          </div>
-        </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
       </div>
+      <button class="menu-button" id="open-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button><!--/.for-sticky-->
+    </div>
+    <!--/.HEADER END-->
+
+    <!--CONTENT WRAP-->
+    <div class="content-wrap">
+      <!--CONTENT-->
+      <div class="content">
+        <!--ABOUT-->
+        <section id="about">
+          <div class="col-md-6 col-xs-12 no-pad">
+            <div class="bg-about"></div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+            <div class="row">
+              <!--OWL CAROUSEL2-->
+              <div class="owl-carousel2">
+                <div class="col-md-12">
+                  <div class="wrap-about">
+                    <div class="w-content">
+                      <p class="head-about">
+                      </p>
+
+                      <h5 class="name">
+                        Design for purpose.
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 white-col">
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+                      <div class="wrap-about">
+                        <table class="w-content">
+                          <tr>
+                            <td class="title">Name </td>
+                            <td class="break">:</td>
+                            <td> Kelly Renee Mahoney</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Phone </td>
+                            <td class="break">:</td>
+                            <td> 352.598.0426</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Email </td>
+                            <td class="break">:</td>
+                            <td> kellyreneemahoney@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Address </td>
+                            <td class="break">:</td>
+                            <td> Ohio, USA</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.OWL CAROUSEL2 END-->
+            </div>
+          </div>
+        </section>
+        <!--/.ABOUT END-->
+
+        <!--WORK-->
+        <section class="grey-bg mar-tm-10" id="work">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Projects</span>
+                </h3>
+                <p class="content-detail">
+                  As a designer, I have a passion for all things beautiful and useful. I love creating products that are polished and believe that completeness is the one of the most valuable assets to a successful presentation.
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <!--PORTFOLIO IMAGE-->
+                <ul class="portfolio-image">
+                  <li class="col-md-6">
+                    <a href="images/p_wb.png"><img alt="image" src="images/p_wb.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                           <p class="desc">Walking Budding - Day<br />
+                             Winner:<br />Hack-a-Town 2017 - Founder Institute's favorite hack<br />
+                             Top 5 Overall
+                           </p>
+                        </div>
+
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/p_wb2.png"><img alt="image" src="images/p_wb2.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Walking Buddy - Night<br />
+                            Winner:<br />Hack-a-Town 2017 - Founder Institute's favorite hack<br />
+                            Top 5 Overall
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/p_md.png"><img alt="image" src="images/p_md.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            MediDock<br />
+                            Winner:<br />MHacks 8 - Goldman-Sach's Best UI/UX Design<br />Wellopp's Best Wellness App or Game
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/p_wl.png"><img alt="image" src="images/p_wl.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Wanderlust<br />
+                            Winner:<br />MangoHacks 2 - Third Place overall<br />Make School's Best iPhone App
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/p_ic.png"><img alt="image" src="images/p_ic.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            ICECAP
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/p_gtc.png"><img alt="image" src="images/p_gtc.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Guess That Cat!
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <!--/.PORTFOLIO IMAGE END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.WORK END-->
+
+        <!--SERVICES-->
+        <section class="white-bg" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Services</span>
+                </h3>
+                <p class="content-detail">
+                  Currently, I specialize in UI/UX Design centered around patient experience in healthcare systems.
+                  With a background in nursing, I have hands-on experience with patients and ways to improve tech in healthcare.<br /><br />
+                  I also have a passion for iOS Design and believe that there are endless ways to change the world; some of those ways can come from the device in your pocket.
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          b
+                        </h3>
+                        <p class="head-sm">
+                          WEB DESIGN
+                        </p>
+                        <p class="text-grey">
+                          One year of experience creating beautiful web pages in fast-paced, high-pressure environments. Working with developers and other team members to create something fantastic.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          d
+                        </h3>
+                        <p class="head-sm">
+                          UI/UX Design
+                        </p>
+                        <p class="text-grey">
+                          One year of experience extending the user's experience beyond the screen, by implementing multi-sensory elements and easy-to-use features.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          j
+                        </h3>
+
+
+                        <p class="head-sm">
+                          PRINT DESIGN
+                        </p>
+                        <p class="text-grey">
+                          Four years of experience creating printed materials for audiences ranging from the college-aged to healthcare professionals. Work includes printed materials from generated hospital reports to on-campus event flyers.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          c
+                        </h3>
+                        <p class="head-sm">
+                          MARKETING
+                        </p>
+                        <p class="text-grey">
+                          Six years of experience marketing products to the college-aged audience. Working with family-owned business to large corporations to promote and grow their business.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          l
+                        </h3>
+                        <p class="head-sm">
+                          SALES
+                        </p>
+                        <p class="text-grey">
+                         Six years of experience in the retail realm, selling everything from college textbooks to luxury apartments. Broke several store-specific sales records upselling premium memberships to exclusive wholesale clubs.
+                          </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          m
+                        </h3>
+                        <p class="head-sm">
+                          Evangelism
+                        </p>
+                        <p class="text-grey">
+                          Four years of experience going to events and conferences representing different companies with the goal of recruiting new hires and/or encouraging attendee participation.
+                          </p>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SERVICES END-->
+
+        <!--EMPLOYEMENT-->
+        <section class="grey-bg" id="employement">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Employment</span>
+                </h3>
+                <p class="content-detail">
+                  I have always had a passion for being involved with companies who's mission is to improve the the life of their customer; Whether that be finding their new home or reducing their time in the hospital.<br /><br />
+                  I believe that through good design, companies can achieve their mission. <br /><br />
+                  <b>Through design, we can change the world.</b>
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2016 - NOW
+                            </h2>
+                            <p class="job">
+                              lead designer
+                            </p>
+                            <p class="company">
+                              Wellopp
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              SUMMER 2016
+                            </h2>
+                            <p class="job">
+                              UI/UX Developer
+                            </p>
+                            <p class="company">
+                              Macy's
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2015 - 2016
+                            </h2>
+                            <p class="job">
+                              leasing agent
+                            </p>
+                            <p class="company">
+                              Circa Properties
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2010 - 2015
+                            </h2>
+                            <p class="job">
+                              sales/on-campus marketer
+                            </p>
+                            <p class="company">
+                              Barnes & Noble College
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.EMPLOYEMENT END-->
+
+        <!--SKILLS-->
+        <section class="white-bg" id="skill">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Skills</span>
+                </h3>
+                <p class="content-detail">
+                  I always love to learn new skills and improve upon the ones I already know. My learning style is diving into the deep-end and learning as I go.
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <!--SKILLST-->
+                <div class="skillst">
+                  <div class="skillbar" data-percent="90%">
+                    <div class="title head-sm">
+                      Sales
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="88%">
+                    <div class="title head-sm">
+                      Adobe Photoshop
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="92%">
+                    <div class="title head-sm">
+                      Sketch
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="78%">
+                    <div class="title head-sm">
+                      HTML/CSS
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                </div>
+                <!--/.SKILLST END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SKILLS END-->
+
+        <!--EDUCATION-->
+        <section class="grey-bg" id="education">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Education</span>
+                </h3>
+                <p class="content-detail">
+I am a firm believer that one never stops learning. Even after you leave the lecture hall, your new classroom simply takes the shape of the environment around you.
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2015 - 2016
+                            </h2>
+                            <p class="job">
+                              BA - Religious Studies
+                            </p>
+                            <p class="company">
+                              University of Florida - Gainesville, FL
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                              Graduating Cum Laude, my time at the University of Florida was spent focusing on the psychology behind religion asking the questions: <b>What makes people believe what they believe?</b> I specialized in Asian American Religions looking at how cultural appropiation has taken hold and how that affects this diaspora in their current environment.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2013-2014
+                            </h2>
+                            <p class="job">
+                              AA - Nursing
+                            </p>
+                            <p class="company">
+                              College of Central Florida - Ocala, FL
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Graduating Summa Cum Laude, my time at the College of Central Florida was focused on learning the essentials of what makes a great nurse. Hands-on training allowed me to understand what it is truly like in a hospital settings while also growing my knowledge on how the human body works.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.EDUCATION END-->
+
+        <!--TESTIMONIAL-->
+        <section id="testimonial">
+          <div class="container">
+            <div class="row wrap-testimonial">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="owl-carousel">
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        Third Place Overall<br />Make School's Favorite iPhone App
+                      </h3>
+                      <p class="people">
+                        Wanderlust - MangoHacks 2017
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        Founder Institute's Favorite Hack<br />Top 5 Overall</h3>
+                      <p class="people">
+                        Walking Buddy - Hack-a-Town
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        Goldmann Sach's Best UI/UX Design<br />Wellopp's Best Wellness App or Game
+                      </h3>
+                      <p class="people">
+                        MediDock - MHacks 8
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        State Farm's Favorite Hack
+                      </h3>
+                      <p class="people">
+                        Personif.ai - HackGSU Spring 2017
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        Top 8 Overall
+                      </h3>
+                      <p class="people">
+                        Dro.net - HackGT 2016
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        Organizer's Choice
+                      </h3>
+                      <p class="people">
+                        Professionalize - sudo HackStetson 2016
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        Makes Me Hungry Award<br />State Farm - Best 1st Time Hackers
+                      </h3>
+                      <p class="people">
+                        Hungry? - HackGSU Fall 2016
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        Macy's Midnight Madness Winner
+                      </h3>
+                      <p class="people">
+                        1Code - HackGSU Fall 2016
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        Best Hack on a .Tech Domain<br />State Farm's Favorite Hack<br />Best Hack Using Harman Speakers - 2nd Place
+                      </h3>
+                      <p class="people">
+                        Push2Party - HackGSU Fall 2016
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        Best Security Hack
+                      </h3>
+                      <p class="people">
+                        Slock - HackGSU Fall 2016
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mask-testimonial"></div>
+        </section>
+        <!--/.TESTMONIAL END-->
+
+        <!--BLOG-->
+        <section class="grey-bg" id="blog">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="title-small-center text-center">
+                  <span><a href="https://www.instagram.com/redheadeatworld/">@redheadeatworld</a></span>
+                </h3>
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <p class="content-details text-center">
+                      I enjoy spending all of my money on food and then taking pictures of it
+                    </p>
+                  </div>
+                </div>
+                <!--GRID BLOG-->
+                <div class="grid">
+                  <div class="grid-item">
+                    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BUNhhuXg4G5/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">It&#39;s Cherry Cobbler Day! But I feeling more like Cherry Danish! 🍒🇩🇰 What&#39;s your favorite cherry dessert? . . . Homemade Cinnamon Cherry Danish - Cherry Danish Topping over a Cinnamon Roll #hybrid #homemade #foodtour #redheadeatworld #homesweethome #cherry #danish</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Kelly The Red Head (@redheadeatworld) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-17T23:07:13+00:00">May 17, 2017 at 4:07pm PDT</time></p></div></blockquote>
+                    <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                  </div>
+                  <div class="grid-item">
+                    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BUM1paeAqSa/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">It&#39;s summer time!!!! 🍓 . . . Strawberry Banana Kiwi Bowl with Chia Seeds and Honey #homemade #foodtour #redheadeatworld #homesweethome #smoothiebowl #freshfruit</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Kelly The Red Head (@redheadeatworld) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-17T16:43:47+00:00">May 17, 2017 at 9:43am PDT</time></p></div></blockquote>
+                    <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                  </div>
+                  <div class="grid-item">
+                    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BTwmdzmAmq5/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">🍤🍤🍤🍤🍤/5 THIS. IS. SO. GOOD. and that&#39;s not all of the sugar (all 68 grams of it). . . . S&#39;mores Frappuccino - Starbucks #starbucks #foodtour #redheadeatworld</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Kelly The Red Head (@redheadeatworld) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-06T17:32:24+00:00">May 6, 2017 at 10:32am PDT</time></p></div></blockquote>
+                    <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                  </div>
+                  <div class="grid-item">
+                    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BTu8wwigiIc/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">🍤🍤🍤🍤🍤/5 Ended my night sipping margaritas by the front fountain while waiting on a take-out order. This place had a 3 HOUR WAIT tonight. Can you believe it?? . . . El Tiempo Cantina - Navigation Houston, Texas Item: Cinco de Mayo Margarita with their House Chips and Salsa Not Pictured: Fajita Quesadilla topped with Jalapeños, Tomatoes, Lettuce, and Sour Cream - YUM #cincodemayo #foodtour #redheadeatworld #houston</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Kelly The Red Head (@redheadeatworld) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-06T02:08:45+00:00">May 5, 2017 at 7:08pm PDT</time></p></div></blockquote>
+                    <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                  </div>
+                  <div class="grid-item">
+                    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BTui7ueAInF/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Cinco de Mayo Marketplace Festival. Muy delicioso! 🌈💃🏽 . . . East End Street Market - Esplanade on Navigation Houston, Texas Item 1: Sweet &amp; Spicy Chicken Bubble Waffle Wrap from Snow Topi Item 2: Churro from Planet Churro Item 3: Medium Lime Margarita from Seniorita&#39;s Margaritas Item 4: Guava Popsicle from Chocolate Wasted Ice Cream #foodtour #redheadeatworld #houston</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Kelly The Red Head (@redheadeatworld) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-05T22:23:03+00:00">May 5, 2017 at 3:23pm PDT</time></p></div></blockquote>
+<script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                  </div>
+                  <div class="grid-item">
+                    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BTrlvTvAoyy/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">🍤🍤🍤🍤🍤/5 This 200 year-old recipe is still kicking. They had sprinkles back then? 😉 . . . Three Brothers Bakery of Houston Houston, Texas Item 1: Gingerbread Man - Soft &amp; Chewy and covered in Rainbow Sprinkles Item 2: Texas Orange Dream Soda - YUMMY #foodtour #redheadeatworld #houston</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Kelly The Red Head (@redheadeatworld) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-04T18:49:51+00:00">May 4, 2017 at 11:49am PDT</time></p></div></blockquote>
+<script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                  </div>
+                </div>
+                <!--/.GRID BLOG END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.BLOG END-->
+
+        <!--CONTACT-->
+        <section id="contact" class="white-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Contact</span>
+                </h3>
+                <p class="content-detail">
+                  I am always open to freelance design work. <br /><br />Shoot me message for rates and availability! (Or if there's a really good restaurant you know about!)
+                </p>
+
+              </div>
+              <div class="col-md-9 content-right">
+                <form>
+                  <div class="group">
+                    <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
+                  </div>
+                  <div class="group">
+                    <input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
+                  </div>
+                  <div class="group">
+                    <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
+                  </div>
+                  <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.CONTACT END-->
+
+        <!--/.FOOTER-END-->
+
+      <!--/.CONTENT END-->
+      </div>
+    <!--/.CONTENT-WRAP END-->
     </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/bgscroll.js"></script>
-</body>
-
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.appear.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/classie.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/masonry.js" type="text/javascript"></script>
+    <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
 </html>
