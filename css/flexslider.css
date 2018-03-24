@@ -363,12 +363,14 @@ html[xmlns] .slides {display: block;}
 .top_slider .slide2 .flex_caption1 .title4 {margin-bottom:15px; width:680px; font-weight:300; line-height:34px; font-size:26px;}
 
 
-.top_slider .slide4 {
+
+.top_slider .slide3 {
 	height:100%;
-	background-image:url(https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/28699068_1223060627830146_118296421046193085_o.jpg?oh=839d7342f75aedde0dc6bc6924b1a2ca&oe=5B0AD48F);
+	background-image:url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/29060678_1237585969710945_854026182165200095_o.jpg?_nc_cat=0&oh=eef68bdd3966e0c3c48f032534ee8eff&oe=5B3529F4);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
 
 .top_slider .slide3 .flex_caption1 {
 	position:absolute;
@@ -388,9 +390,9 @@ html[xmlns] .slides {display: block;}
 .top_slider .slide3 .flex_caption1 .title3 {margin-bottom:15px; display:inline-block; font-weight:100; line-height:80px; font-size:80px;}
 .top_slider .slide3 .flex_caption1 .title4 {margin-bottom:15px; width:680px; font-weight:300; line-height:34px; font-size:26px;}
 
-.top_slider .slide5 {
+.top_slider .slide4 {
 	height:100%;
-	background-image:url(https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/28424308_1223060617830147_3312274139085416241_o.jpg?oh=70fd449fd965919aedf2365f56b7446b&oe=5B08ECF3);
+	background-image:url(https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/28699068_1223060627830146_118296421046193085_o.jpg?oh=839d7342f75aedde0dc6bc6924b1a2ca&oe=5B0AD48F);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -413,9 +415,9 @@ html[xmlns] .slides {display: block;}
 .top_slider .slide4 .flex_caption1 .title3 {margin-bottom:15px; display:inline-block; font-weight:100; line-height:80px; font-size:80px;}
 .top_slider .slide4 .flex_caption1 .title4 {margin-bottom:15px; width:680px; font-weight:300; line-height:34px; font-size:26px;}
 
-.top_slider .slide3 {
+.top_slider .slide5 {
 	height:100%;
-	background-image:url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/29060678_1237585969710945_854026182165200095_o.jpg?_nc_cat=0&oh=eef68bdd3966e0c3c48f032534ee8eff&oe=5B3529F4);
+	background-image:url(https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/28424308_1223060617830147_3312274139085416241_o.jpg?oh=70fd449fd965919aedf2365f56b7446b&oe=5B08ECF3);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
