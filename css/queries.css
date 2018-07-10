@@ -1,21 +1,19 @@
 @media screen and (min-width:569px) {
 body {background-color: #D2D1CF; background-image: none; width: 100%}
   .navbar {display: inline;}
-  .rotate {display: none;}
-  .centerify {display: none;}
-  .centerify-item {display: none;}
+  #rotate {display: none;}
+  h1 {display: none;}
 }
 @media only screen and (min-width:569px) {
 body {background-color: #D2D1CF; background-image: none; width: 100%}
  .navbar {display:inline;}
-  .rotate {display: none;}
-  .centerify {display: none;}
-  .centerify-item {display: none;}
+ #rotate {display: none;}
+ h1 {display: none;}
 }
 
 @media screen and (max-width:568px) {
     body {background-image:url(/rotate.png); background-repeat: no-repeat; background-position:top;}
-    .rotate {display: block;}
+    #rotate {display: block;}
     .navbar {display: none;}
     .carousel {display: none;}
 }
