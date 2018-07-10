@@ -8,14 +8,14 @@ body {background-color: #D2D1CF; background-image: none;}
 }
 
 @media screen and (max-width:568px) {
-    body {background-image:url(rotate.png); background-repeat: no-repeat; background-position:top;}
+    body {background-image:url(/rotate.png); background-repeat: no-repeat; background-position:top;}
     .rotate {display: block;}
     .navbar {display: none;}
     .carousel {display: none;}
 }
 
 @media only screen and (max-width:568px) {
-body {background-image:url(rotate.png); background-color: white;}
+body {background-image:url(/rotate.png); background-color: white;}
 .navbar {display: none;}
 .carousel {display: none;}
 }
