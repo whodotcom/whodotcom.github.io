@@ -3,12 +3,14 @@ body {background-color: #D2D1CF; background-image: none; width: 100%}
   .navbar {display: inline;}
   #rotate {display: none;}
   h1 {display: none;}
+  .carousel-item {min-height: 700px;}
 }
 @media only screen and (min-width:569px) {
 body {background-color: #D2D1CF; background-image: none; width: 100%}
  .navbar {display:inline;}
  #rotate {display: none;}
  h1 {display: none;}
+  .carousel-item {min-height: 700px;}
 }
 
 @media screen and (max-width:568px) {
