@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Roboto Slab", Arial, serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -36,7 +36,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Roboto Slab", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
 
@@ -137,7 +137,7 @@ figure {
         text-decoration: none;
         position: relative;
         padding: 10px 0;
-        font-family: "Quicksand", Arial, sans-serif;
+        font-family: "Roboto Slab", Arial, serif;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s; }
@@ -313,7 +313,7 @@ figure {
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 300;
-          font-family: "Quicksand", Arial, sans-serif; }
+          font-family: "Roboto Slab", Arial, serif; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: rgba(0, 0, 0, 0.8); }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
@@ -867,7 +867,7 @@ body.offcanvas {
     font-size: 40px;
     display: block;
     color: white;
-    font-family: "Quicksand", Arial, sans-serif;
+    font-family: "Roboto Slab", Arial, serif;
     width: 100%;
     font-weight: 700;
     margin-bottom: .3em; }
